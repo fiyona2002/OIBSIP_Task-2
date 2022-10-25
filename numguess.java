@@ -12,7 +12,7 @@ public class numguess {
     {
 
         Scanner sc = new Scanner(System.in);
-        int num=(int)(100*Math.random());  //this will select random number
+        int num=(int)(100*Math.random());  //selects random number
         int rounds=6;
         int guess,i,again,points=0;
 
@@ -21,7 +21,7 @@ public class numguess {
 
 
         for(i=0;i<6;i++) {
-            System.out.println("\nTry to Guess a number..");    //guess number45
+            System.out.println("\nTry to Guess a number..");    //guess number accordingly
             guess=sc.nextInt();
 
 
